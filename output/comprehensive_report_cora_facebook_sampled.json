@@ -1,0 +1,82 @@
+{
+  "rows": [
+    {
+      "dataset": "cora",
+      "strategy": "betweenness",
+      "trials": 10,
+      "sample_nodes": 300,
+      "sample_edges": 577,
+      "baseline_conn_pct": 60.0,
+      "baseline_path_pct": 0.0,
+      "rag_conn_pct": 90.0,
+      "rag_path_pct": 30.0,
+      "baseline_avg_conf": 0.9,
+      "rag_avg_conf": 0.9
+    },
+    {
+      "dataset": "cora",
+      "strategy": "path_aware",
+      "trials": 10,
+      "sample_nodes": 300,
+      "sample_edges": 577,
+      "baseline_conn_pct": 60.0,
+      "baseline_path_pct": 0.0,
+      "rag_conn_pct": 100.0,
+      "rag_path_pct": 0.0,
+      "baseline_avg_conf": 0.9,
+      "rag_avg_conf": 1.0
+    },
+    {
+      "dataset": "cora",
+      "strategy": "degree",
+      "trials": 10,
+      "sample_nodes": 300,
+      "sample_edges": 577,
+      "baseline_conn_pct": 60.0,
+      "baseline_path_pct": 0.0,
+      "rag_conn_pct": 100.0,
+      "rag_path_pct": 0.0,
+      "baseline_avg_conf": 0.9,
+      "rag_avg_conf": 1.0
+    },
+    {
+      "dataset": "facebook",
+      "strategy": "betweenness",
+      "trials": 10,
+      "sample_nodes": 300,
+      "sample_edges": 4251,
+      "baseline_conn_pct": 80.0,
+      "baseline_path_pct": 0.0,
+      "rag_conn_pct": 100.0,
+      "rag_path_pct": 50.0,
+      "baseline_avg_conf": 1.0,
+      "rag_avg_conf": 1.0
+    },
+    {
+      "dataset": "facebook",
+      "strategy": "path_aware",
+      "trials": 10,
+      "sample_nodes": 300,
+      "sample_edges": 4251,
+      "baseline_conn_pct": 80.0,
+      "baseline_path_pct": 0.0,
+      "rag_conn_pct": 100.0,
+      "rag_path_pct": 30.0,
+      "baseline_avg_conf": 1.0,
+      "rag_avg_conf": 1.0
+    },
+    {
+      "dataset": "facebook",
+      "strategy": "degree",
+      "trials": 10,
+      "sample_nodes": 300,
+      "sample_edges": 4251,
+      "baseline_conn_pct": 80.0,
+      "baseline_path_pct": 0.0,
+      "rag_conn_pct": 100.0,
+      "rag_path_pct": 30.0,
+      "baseline_avg_conf": 1.0,
+      "rag_avg_conf": 1.0
+    }
+  ]
+}

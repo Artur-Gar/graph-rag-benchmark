@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+
+.ipynb_checkpoints/
+
+.DS_Store
+
+#data/*.tgz
+#data/*.gz
+3data/cora/
