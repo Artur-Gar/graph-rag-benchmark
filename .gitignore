@@ -9,4 +9,4 @@ __pycache__/
 
 #data/*.tgz
 #data/*.gz
-3data/cora/
+#data/cora/
