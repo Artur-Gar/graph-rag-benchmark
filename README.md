@@ -9,15 +9,15 @@ Instead of feeding the full graph into the model, we selectively retrieve a **qu
 
 This project implements an **Adaptive Graph-RAG framework** for structural reasoning tasks on graphs. The core idea is to mitigate *attention dilution* in LLMs by pruning irrelevant edges and nodes before inference.
 
-Given a graph \( G = (V, E) \) and a query \((s, t)\), we:
+Given a graph **G = (V, E)** and a query **(s, t)**, we:
 
-1. Compute the shortest path \(P^*\)
+1. Compute the shortest path **P\***
 2. Expand a candidate subgraph via k-hop BFS
 3. Rank nodes using heuristic strategies:
    - **Path-aware** (distance-based)
    - **Degree-based** (hub prioritization)
    - **Betweenness centrality**
-4. Construct a compact subgraph \(G' \subseteq G\)
+4. Construct a compact subgraph **G' ⊂ G**
 5. Prompt the LLM with structured encoding (Incident Encoding)
 6. Evaluate deterministically using Python (no LLM-as-judge)
 
